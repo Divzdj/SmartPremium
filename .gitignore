@@ -1,6 +1,26 @@
 # Ignore dataset folder
 data/
 
+# Ignore large model files inside notebooks
+notebooks/best_model.pkl
+
+# DO NOT ignore main model file for Streamlit
+!best_model.pkl
+
+# Ignore notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore MLflow runs folder
+notebooks/mlruns/
+
+# Ignore Mac OS files
+*.DS_Store
+
+# Ignore Python cache
+__pycache__/
+# Ignore dataset folder
+data/
+
 # Ignore large model files
 notebooks/best_model.pkl
 
