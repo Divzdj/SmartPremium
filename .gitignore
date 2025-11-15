@@ -7,9 +7,6 @@ notebooks/.ipynb_checkpoints/
 # Ignore MLflow runs folder
 notebooks/mlruns/
 
-# Keep main model for Streamlit
-!notebooks/best_model.pkl
-
 # Ignore Mac OS files
 *.DS_Store
 
